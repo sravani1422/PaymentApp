@@ -1,0 +1,51 @@
+<div class="wrapper">
+    <div class="main">
+        <div class="container">
+            <div class="header-margin"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tim-title text-center">
+                        <h2>Transaction History</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-display">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                
+                                <th>transferType</th>
+                                
+                                <th>amount</th>
+                                <th>receiverAcctNumber</th>
+                                <th>receiverName</th>
+                                <th>senderAcctNumber</th>
+                                <th>receiverBic</th>
+                                <th>timestamp</th>
+                            </tr>
+                            </thead>
+                            <tbody *ngFor="let transaction of transactions ">
+                            <tr>
+                                <td>{{transaction.transferType}}</td>
+                                
+                                <td>{{transaction.amount}}</td>
+                                <td>{{transaction.receiverId}}</td>
+                                <td>{{transaction.receiverName}}</td>
+                                <td>{{transaction.customer.customerId}}</td>
+                                <td>{{transaction.receiverBic.bic}}</td>
+                                <td>{{transaction.timestamp}}</td>
+                            </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+   </div>
+</div>

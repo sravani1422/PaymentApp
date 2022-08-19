@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin :0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+
+.card {
+    background: #e7eaf6;
+    width: 550px;
+    height: 550px;
+    margin: 20px;
+    border-radius: 7px;
+}
+.card button{
+    background: linear-gradient(109.6deg, rgb(61, 121, 176) 11.3%, rgb(35, 66, 164) 91.1%);
+    color: white;
+    padding: 15px 20px;
+    display:flex;
+    text-align:center;
+    margin: 25px 90px;
+    border-radius: 7px;
+}
+
+
+
+.container{
+     text-align: center;
+     margin: auto;
+}  
+
+
+
+.card:hover{
+    font-size: 18px;
+    font-family:'Times New Roman';
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 0s ease;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+
+
+.form-control{
+    border-radius: 25px;
+}

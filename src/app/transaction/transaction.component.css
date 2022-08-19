@@ -1,0 +1,22 @@
+.header-margin{
+    margin-top: 100px;
+}
+.row-display{
+    display: flex;
+}
+.card-button{
+    min-height: 150px;
+}
+form{
+    width: 100%;
+}
+thead {
+    width: 100%;
+  }
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+tr:nth-child(even) {
+    background-color: #a2ecec;
+  }
